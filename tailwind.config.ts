@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,24 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				java: {
+					DEFAULT: '#5382a1',
+					dark: '#1a365d',
+					light: '#8bb6d2'
+				},
+				angular: {
+					DEFAULT: '#dd0031',
+					dark: '#a5002b',
+					light: '#ff4569'
+				},
+				tech: {
+					java: '#5382a1',
+					spring: '#6db33f',
+					hibernate: '#bcae79',
+					angular: '#dd0031',
+					typescript: '#3178c6',
+					sql: '#f29111'
 				}
 			},
 			borderRadius: {
@@ -84,11 +103,37 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0'
+					},
+					'100%': {
+						opacity: '1'
+					}
+				},
+				'code-flow': {
+					'0%': {
+						transform: 'translateY(0)'
+					},
+					'100%': {
+						transform: 'translateY(-20px)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 1s ease-out',
+				'code-flow': 'code-flow 10s infinite alternate'
+			},
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+				code: ['Fira Code', 'monospace']
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'hero-pattern': 'linear-gradient(to right, rgba(20, 30, 48, 0.95), rgba(36, 59, 85, 0.9))'
 			}
 		}
 	},
