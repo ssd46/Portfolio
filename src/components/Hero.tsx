@@ -22,9 +22,10 @@ const Hero: React.FC = () => {
               Creating scalable enterprise solutions with cutting-edge technologies.
             </p>
             <div className="pt-4 flex flex-wrap gap-4">
-              <Button className="bg-angular hover:bg-angular-dark">
+            <a href='#projects'>  <Button className="bg-angular hover:bg-angular-dark">
                 View Projects
               </Button>
+              </a>
               <Button variant="outline" className="border-java text-java hover:bg-java hover:text-white">
                 Download Resume
               </Button>
