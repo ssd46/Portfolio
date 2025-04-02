@@ -53,8 +53,8 @@ const Contact: React.FC = () => {
               <Mail className="h-6 w-6 text-java" />
             </div>
             <h3 className="text-lg font-bold mb-2">Email</h3>
-            <p className="text-gray-700">contact@johndoe.dev</p>
-            <a href="mailto:contact@johndoe.dev" className="text-java hover:underline mt-2">Send Email</a>
+            <p className="text-gray-700">vallabhapuramdinesh@gmail.com</p>
+            <a href="mailto:vallabhapuramdinesh@gmail.com" className="text-java hover:underline mt-2">Send Email</a>
           </Card>
           
           <Card className="p-6 border-t-4 border-t-angular flex flex-col items-center text-center">
@@ -62,8 +62,8 @@ const Contact: React.FC = () => {
               <Phone className="h-6 w-6 text-angular" />
             </div>
             <h3 className="text-lg font-bold mb-2">Phone</h3>
-            <p className="text-gray-700">+1 (555) 123-4567</p>
-            <a href="tel:+15551234567" className="text-angular hover:underline mt-2">Call Now</a>
+            <p className="text-gray-700">+1 (337) 557-9477</p>
+            <a href="tel:+13" className="text-angular hover:underline mt-2">Call Now</a>
           </Card>
           
           <Card className="p-6 border-t-4 border-t-java flex flex-col items-center text-center">

@@ -15,10 +15,10 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-gray-700 mb-6">
-              I'm a passionate Java Full Stack Developer with expertise in building enterprise-grade applications using Java and Angular. With 7+ years of experience, I specialize in creating scalable, maintainable, and high-performance applications.
+              I'm a passionate Java Full Stack Developer with expertise in building enterprise-grade applications using Java and Angular. With 3+ years of experience, I specialize in creating scalable, maintainable, and high-performance applications.
             </p>
             <p className="text-gray-700 mb-6">
-              My journey started with Java backend development, where I mastered Spring Boot, Hibernate, and RESTful services. Over time, I expanded to full-stack development, embracing Angular to create seamless user experiences with reactive frontends.
+              My journey started with Java backend development, Initially worked with Servlets, Hibernate, and JSP for web application development later on  I mastered Spring Boot, Spring Security, Spting Data, Hibernate, and RESTful services. Over time, I expanded to full-stack development, embracing Angular to create seamless user experiences with reactive frontends.
             </p>
             <p className="text-gray-700">
               I'm dedicated to writing clean, well-tested code and stay current with the latest technologies and best practices in both Java and Angular ecosystems.

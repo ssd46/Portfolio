@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
           <div className="text-white space-y-6 animate-fade-in">
             <h2 className="text-angular font-medium text-xl">Hello, my name is</h2>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-              John Doe
+              Sri Sai Dinesh Vallabhapuram
             </h1>
             <h2 className="text-2xl md:text-3xl lg:text-4xl text-java-light">
               Java Full Stack Developer
