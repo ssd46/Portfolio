@@ -21,13 +21,13 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="flex space-x-4">
-            <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-java transition-colors">
+            <a href="https://github.com/ssd46" className="bg-gray-800 p-2 rounded-full hover:bg-java transition-colors">
               <Github className="h-5 w-5" />
             </a>
-            <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-java transition-colors">
+            <a href="https://www.linkedin.com/in/srisaidinesh-vallabhapuram/" className="bg-gray-800 p-2 rounded-full hover:bg-java transition-colors">
               <Linkedin className="h-5 w-5" />
             </a>
-            <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-java transition-colors">
+            <a href="" className="bg-gray-800 p-2 rounded-full hover:bg-java transition-colors">
               <Twitter className="h-5 w-5" />
             </a>
             <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-java transition-colors">
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 pt-6 mt-6 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} John Doe. All rights reserved.
+            © {new Date().getFullYear()} Sri Sai Dinesh. All rights reserved.
           </div>
           
           <div className="flex space-x-6">
