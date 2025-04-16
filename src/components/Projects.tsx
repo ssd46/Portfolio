@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
       description: "Full-stack banking solution with Java Spring Boot backend and Angular 17 frontend. Features include secure user authentication, transaction processing, and detailed reporting.",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
       tags: ["Java", "Spring Boot", "Angular", "PostgreSQL", "Docker"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/ssd46/Enterprises-Banking-Platform",
       liveUrl: "#",
       category: "enterprise"
     },
