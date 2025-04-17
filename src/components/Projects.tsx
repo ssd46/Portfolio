@@ -133,10 +133,10 @@ const Projects: React.FC = () => {
                   <Github className="h-4 w-4 mr-2" />
                   Source Code
                 </Button>
-                <Button size="sm" className="bg-java hover:bg-java-dark" onClick={() => window.open(project.liveUrl, '_blank')}>
+{/*                 <Button size="sm" className="bg-java hover:bg-java-dark" onClick={() => window.open(project.liveUrl, '_blank')}>
                   <ExternalLink className="h-4 w-4 mr-2" />
                   Live Demo
-                </Button>
+                </Button> */}
               </CardFooter>
             </Card>
           ))}
