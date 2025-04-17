@@ -102,11 +102,11 @@ const Projects: React.FC = () => {
                       <Github className="h-6 w-6 text-gray-900" />
                     </a>
                   )}
-                  {project.liveUrl && (
+{/*                   {project.liveUrl && (
                     <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="p-2 bg-white rounded-full hover:bg-gray-200 transition-colors">
                       <ExternalLink className="h-6 w-6 text-gray-900" />
                     </a>
-                  )}
+                  )} */}
                 </div>
               </div>
               
