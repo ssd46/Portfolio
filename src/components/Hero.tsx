@@ -15,10 +15,10 @@ const Hero: React.FC = () => {
               Sri Sai Dinesh Vallabhapuram
             </h1>
             <h2 className="text-2xl md:text-3xl lg:text-4xl text-java-light">
-              Java Full Stack Developer
+               Full Stack Developer
             </h2>
             <p className="text-gray-300 max-w-md">
-              Specialized in building robust Java backends and modern Angular frontends.
+              Specialized in building robust Java and .Net  backends and modern Angular frontends.
               Creating scalable enterprise solutions with cutting-edge technologies.
             </p>
             <div className="pt-4 flex flex-wrap gap-4">

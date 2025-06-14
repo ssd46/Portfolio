@@ -68,7 +68,7 @@ const Projects: React.FC = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Featured Projects</h2>
           <div className="h-1 w-20 bg-java mx-auto"></div>
           <p className="mt-4 text-gray-700 max-w-2xl mx-auto">
-            Explore my portfolio of full-stack Java and Angular projects demonstrating my technical expertise and problem-solving abilities.
+            Explore my portfolio of full-stack .Net, Java and Angular projects demonstrating my technical expertise and problem-solving abilities.
           </p>
         </div>
         

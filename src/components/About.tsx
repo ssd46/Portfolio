@@ -15,13 +15,13 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-gray-700 mb-6">
-              I'm a passionate Java Full Stack Developer with expertise in building enterprise-grade applications using Java and Angular. With 3+ years of experience, I specialize in creating scalable, maintainable, and high-performance applications.
+              I'm a passionate Full Stack Developer with expertise in building enterprise-grade applications using Java, .Net, and Angular. With 3+ years of experience, I specialize in creating scalable, maintainable, and high-performance applications.
             </p>
             <p className="text-gray-700 mb-6">
-              My journey started with Java backend development, Initially worked with Servlets, Hibernate, and JSP for web application development later on  I mastered Spring Boot, Spring Security, Spting Data, Hibernate, and RESTful services. Over time, I expanded to full-stack development, embracing Angular to create seamless user experiences with reactive frontends.
+              My journey started with Java backend development, Initially worked with Servlets, Hibernate, and JSP for web application development later on  I  worked with c#, Asp.net, .net MVC, Entity framework and then mastered Spring Boot, Spring Security, Spring Data, Hibernate, and RESTful services. Over time, I expanded to full-stack development, embracing Angular to create seamless user experiences with reactive frontends.
             </p>
             <p className="text-gray-700">
-              I'm dedicated to writing clean, well-tested code and stay current with the latest technologies and best practices in both Java and Angular ecosystems.
+              I'm dedicated to writing clean, well-tested code and stay current with the latest technologies and best practices in both Java, .Net, and Angular ecosystems.
             </p>
           </div>
           
@@ -30,7 +30,7 @@ const About: React.FC = () => {
               <CardContent className="p-6 flex flex-col items-center text-center">
                 <Server className="h-12 w-12 text-java mb-4" />
                 <h3 className="font-bold mb-2">Backend</h3>
-                <p className="text-sm text-gray-600">Java, Spring Boot, Spring Security, JPA/Hibernate</p>
+                <p className="text-sm text-gray-600">Java, Spring Boot, Spring Security, JPA/Hibernate, .Net, Entity Framework, Asp.net Core</p>
               </CardContent>
             </Card>
             
@@ -46,7 +46,7 @@ const About: React.FC = () => {
               <CardContent className="p-6 flex flex-col items-center text-center">
                 <Database className="h-12 w-12 text-java mb-4" />
                 <h3 className="font-bold mb-2">Database</h3>
-                <p className="text-sm text-gray-600">MySQL, PostgreSQL, MongoDB, Redis</p>
+                <p className="text-sm text-gray-600">MySQL,sql server PostgreSQL, MongoDB, Redis</p>
               </CardContent>
             </Card>
             
