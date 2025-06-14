@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
       description: "Full-stack banking solution with Java Spring Boot backend and Angular 17 frontend. Features include secure user authentication, transaction processing, and detailed reporting.",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
       tags: ["Java", "Spring Boot", "Angular", "PostgreSQL", "Docker"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/ssd46/Enterprises-Banking-Platform",
       liveUrl: "#",
       category: "enterprise"
     },
@@ -102,11 +102,11 @@ const Projects: React.FC = () => {
                       <Github className="h-6 w-6 text-gray-900" />
                     </a>
                   )}
-                  {project.liveUrl && (
+{/*                   {project.liveUrl && (
                     <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="p-2 bg-white rounded-full hover:bg-gray-200 transition-colors">
                       <ExternalLink className="h-6 w-6 text-gray-900" />
                     </a>
-                  )}
+                  )} */}
                 </div>
               </div>
               
@@ -133,10 +133,10 @@ const Projects: React.FC = () => {
                   <Github className="h-4 w-4 mr-2" />
                   Source Code
                 </Button>
-                <Button size="sm" className="bg-java hover:bg-java-dark" onClick={() => window.open(project.liveUrl, '_blank')}>
+{/*                 <Button size="sm" className="bg-java hover:bg-java-dark" onClick={() => window.open(project.liveUrl, '_blank')}>
                   <ExternalLink className="h-4 w-4 mr-2" />
                   Live Demo
-                </Button>
+                </Button> */}
               </CardFooter>
             </Card>
           ))}
