@@ -36,7 +36,7 @@ const Navbar = () => {
         <a href="#home" className="flex items-center space-x-2 text-2xl font-bold">
           <Code className="text-java" />
           <span className="hidden md:inline">
-            <span className="text-java">Java</span>
+            <span className="text-java">Java/.Net </span>
             <span className="text-angular">Dev</span>
           </span>
         </a>
